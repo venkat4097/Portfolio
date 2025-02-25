@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagan Venkat Merugu - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Particle background -->
+    <div id="particles-js"></div>
+    
+    <!-- Digital Clock -->
+    <div class="clock-container">
+        <i class="fas fa-clock clock-icon"></i>
+        <div>
+            <div id="digital-clock">00:00:00</div>
+            <div id="date-display">Monday, Feb 24, 2025</div>
+        </div>
+    </div>
+    
+    <!-- Smooth Scroll Indicator -->
+    <div class="scroll-indicator">
+        <i class="fas fa-chevron-down"></i>
+    </div>
+
+    <!-- Side Navigation -->
+    <nav class="side-nav">
+        <a href="#about" class="nav-link">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+        </a>
+        <a href="#education" class="nav-link">
+            <i class="fas fa-graduation-cap"></i>
+            <span>Education</span>
+        </a>
+        <a href="#experience" class="nav-link">
+            <i class="fas fa-briefcase"></i>
+            <span>Experience</span>
+        </a>
+        <a href="#projects" class="nav-link">
+            <i class="fas fa-code"></i>
+            <span>Projects</span>
+        </a>
+        <a href="#skills" class="nav-link">
+            <i class="fas fa-cogs"></i>
+            <span>Skills</span>
+        </a>
+        <a href="#" class="nav-link scroll-top">
+            <i class="fas fa-arrow-up"></i>
+            <span>Top</span>
+        </a>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <div style="width:100%; height:100%; background:linear-gradient(135deg, #4169e1, #00c8ff); display:flex; justify-content:center; align-items:center; color:#fff; font-size:2.5rem;"><img src="profile.jpg"></div>
+                </div>
+                <div class="profile-info">
+                    <h1>Jagan Venkat Merugu</h1>
+                    <p>Computer Science Engineering Student</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> 
+                            <a href="mailto:merugujagan7@gmail.com" style="color: white; text-decoration: none;">merugujagan7@gmail.com</a>
+                        </p>
+                        <p><i class="fas fa-phone"></i> +91 9177220504</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="summary-content">
+                <p>A highly motivated and diligent third-year Computer Science Engineering student at SRM University AP. Dedicated to continuous learning, personal growth, and demonstrating capabilities in a professional environment. Actively seeking opportunities to kickstart a career, apply knowledge effectively, and make a positive impact.</p>
+            </div>
+        </section>
+        
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3 class="education-title">B.Tech in Computer Science Engineering</h3>
+                <p class="education-detail">SRM University-AP</p>
+                <p class="education-year">2022 - Present</p>
+                <p class="education-score">Current GPA: 8.69</p>
+            </div>
+            
+            <div class="education-item">
+                <h3 class="education-title">Class 12th</h3>
+                <p class="education-detail">AP State Board</p>
+                <p class="education-year">2022</p>
+                <p class="education-score">Percentage: 97.7%</p>
+            </div>
+            
+            <div class="education-item">
+                <h3 class="education-title">Class 10th</h3>
+                <p class="education-detail">AP State Board</p>
+                <p class="education-year">2020</p>
+                <p class="education-score">Percentage: 97.5%</p>
+            </div>
+        </section>
+        
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="exp-project-item">
+                <h3 class="project-title">Credit Card Fraud Detection using Machine Learning</h3>
+                <p class="project-duration"><i class="far fa-calendar-alt"></i> January 2025 - Present</p>
+                <div class="project-details">
+                    <ul>
+                        <li>Developing a machine learning model to identify fraudulent credit card transactions</li>
+                        <li>Implementing algorithms like Logistic Regression, Random Forest, and Neural Networks for fraud detection</li>
+                        <li>Evaluating model performance using precision, recall, and F1-score metrics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <h2 class="section-title">Technical Projects</h2>
+            <div class="exp-project-item">
+                <h3 class="project-title">E-commerce Website</h3>
+                <div class="project-details">
+                    <ul>
+                        <li>Developed a complete e-commerce platform with user authentication and product management</li>
+                        <li>Implemented PHP and MySQL for secure user data storage and order processing</li>
+                        <li>Designed a responsive shopping cart and checkout system for seamless transactions</li>
+                        <li>Applied SQL queries for efficient database management and data retrieval</li>
+                    </ul>
+                    <p class="tech-used"><strong>Technologies Used:</strong> HTML5, CSS, JavaScript, PHP, MySQL, XAMPP</p>
+                </div>
+            </div>
+            
+            <div class="exp-project-item">
+                <h3 class="project-title">Loan Approval Detection System</h3>
+                <div class="project-details">
+                    <ul>
+                        <li>Developed a Machine Learning-based Loan Approval System to predict loan eligibility based on applicant data</li>
+                        <li>Implemented feature selection and trained models using KNN, Decision Trees, and Naive Bayes Classifier</li>
+                        <li>Evaluated model performance using accuracy, precision, recall, and confusion matrix</li>
+                    </ul>
+                    <p class="tech-used"><strong>Technologies Used:</strong> Python, Machine Learning libraries</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">C++</span>
+                        <span class="skill-item">Python</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Database Systems</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Web Technologies</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">PHP</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Machine Learning</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Python Libraries</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Data Structures & Algorithms</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">C++ (DSA)</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Version Control & Tools</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jagan Venkat Merugu. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
